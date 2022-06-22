@@ -28,8 +28,8 @@ function FeedbackForm() {
     if (value === '') {
       setBtnDisabled(true)
       setMessage(null)
-      
-  // prettier-ignore
+
+      // prettier-ignore
     } else if (value.trim().length < 10) { // 👈 check for less than 10
       setMessage('Text must be at least 10 characters')
       setBtnDisabled(true)
